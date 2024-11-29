@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مطعم مهند لأشهى المأكولات البحرية</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="./images/Logo-removebg-preview.png" alt="">
+            </div>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#menu">القائمة</a></li>
+                <li><a href="#about">عنا</a></li>
+                <li><a href="#contact">التواصل</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="landing-section">
+        <div>
+            <h1>مرحبًا بكم في مطعم مهند </h1>
+            <p>استمتعوا بأجمل الأجواء وألذ المأكولات!</p>
+        </div>
+    </section>
+
+
+    <section id="menu" class="seafood-menu">
+        <h2>أبرز المأكولات البحرية</h2>
+        <div class="seafood-item">
+            <img src="./images/سمك مشوي.jpeg" alt="سمك مشوي">
+            <h3>سمك مشوي</h3>
+            <p>سمك طازج مشوي مع الأعشاب البحرية وصلصة الليمون.</p>
+        </div>
+        <div class="seafood-item">
+            <img src="./images/جمبري مشوي.jpg" alt="جمبري مشوي">
+            <h3>جمبري مشوي</h3>
+            <p>جمبري مشوي لذيذ مع تتبيلة الثوم والزبدة.</p>
+        </div>
+        <div class="seafood-item">
+            <img src="./images/سلطة سمك.jpg" alt="سلطة سمك">
+            <h3>سلطة سمك</h3>
+            <p>سلطة طازجة مع قطع السمك المشوي والخضروات الطازجة.</p>
+        </div>
+        <div class="seafood-item">
+            <img src="./images/محار.jpg" alt="محار">
+            <h3>محار</h3>
+            <p>محار طازج مع صوص الليمون والزبدة الغنية بالفسفور.</p>
+        </div>
+        <div class="seafood-item">
+            <img src="./images/طاجن سمك.jpg" alt="طاجن سمك">
+            <h3>طاجن سمك</h3>
+            <p>طاجن سمك لذيذ مع الخضروات المطهوة على البخار.</p>
+        </div>
+        <div style="padding: 30px 0;">
+            <a href="./list.html" class="card-button">المزيد</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section" style="position: relative;">
+        <div style="background-color: rgba(0, 0, 0, .5); position: absolute; inset: 0; z-index: 1;"></div>
+        <div class="about-us-flex container" style="position: relative; z-index: 2;">
+            <h2>عنا</h2>
+            <p>مرحباً بكم في مطعم مهند، حيث ينبض شغف الطعام والضيافة بالحياة! نحن في مطعم مهند نفخر بتقديم تجربة طعام
+                فريدة
+                تجمع بين الأطباق الشهية، والأجواء الدافئة، والخدمة الاستثنائية.
+
+                بدأت قصتنا بمهمة بسيطة: خلق مكان يمكن للناس أن يتجمعوا فيه، ويحتفلوا، ويستمتعوا بالوجبات المعدة بأجود
+                المكونات. من الوصفات التقليدية إلى الإبداعات الطهو الحديثة، كل طبق في قائمتنا يُعد بعناية واهتمام بأدق
+                التفاصيل.
+
+                سواء كنت هنا لتناول عشاء عائلي، أو لقضاء أمسية رومانسية، أو للاجتماع مع الأصدقاء في جو غير رسمي، هدفنا
+                هو جعل زيارتك تجربة لا تُنسى. استمتع بأجوائنا المريحة، ودع طاقمنا الودود يهتم بك، وتلذذ بوجبة ترضي ذوقك
+                وتُسعد قلبك.
+
+                شكراً لاختياركم مطعم مهند. نحن نتطلع لخدمتكم وكوننا جزءًا من لحظاتكم الخاصة!</p>
+        </div>
+    </section>
+
+    <section id="contact" class="form-section">
+        <h2>التواصل والحجز</h2>
+        <form>
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" placeholder="ادخل الاسم..." required>
+
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" placeholder="ادخل بريدك الالكتروني..." required>
+
+            <label for="message">رسالتك:</label>
+            <textarea id="message" name="message" rows="4" placeholder="رسالتك..."></textarea>
+
+            <button type="submit">إرسال</button>
+        </form>
+
+    </section>
+
+    <footer>
+        <div style="display: flex; max-width: 1100px; margin: 0 auto; justify-content: space-between; flex-wrap: wrap; padding: 15px;">
+            <div class="map">
+                <h3>موقعنا الجغرافي:</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="300" style="border:0;"
+                    allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+            <div style="text-align: start;">
+                <p>العنوان: شارع عمر المختار، حي الرمال، مدينة غزة</p>
+                <p>الهاتف: (123) 456-7890</p>
+                <p>ساعات العمل: 9 صباحًا - 11 مساءً</p>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li>
+                        <a href="#">الرئيسية</a>
+                    </li>
+                    <li>
+                        <a href="./list.html">القائمة</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
